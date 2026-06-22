@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 2,
+    "found": 1234
+  },
+  "results": [
+    {
+      "id": 2178,
+      "name": "Example Station Name",
+      "locality": "City Name",
+      "country": {
+        "id": "US",
+        "name": "United States"
+      },
+      "coordinates": {
+        "latitude": 34.05,
+        "longitude": -118.25
+      },
+      "active": true,
+      "parameters": [
+        {
+          "id": 1,
+          "name": "pm25",
+          "displayName": "PM2.5",
+          "units": "µg/m³",
+          "description": "Fine particulate matter"
+        }
+      ]
+    },
+    {
+      "id": 2179,
+      "name": "Second Station Name",
+      "locality": "Another City",
+      "country": {
+        "id": "KZ",
+        "name": "Kazakhstan"
+      },
+      "coordinates": {
+        "latitude": 43.25,
+        "longitude": 76.9
+      },
+      "active": false,
+      "parameters": [
+        {
+          "id": 2,
+          "name": "o3",
+          "displayName": "Ozone",
+          "units": "ppm",
+          "description": "Ozone"
+        }
+      ]
+    }
+  ]
+}

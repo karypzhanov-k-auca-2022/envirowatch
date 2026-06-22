@@ -14,11 +14,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-    show-sql: true
+    show-sql: false
     properties:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
 
   flyway:
     enabled: true
@@ -31,3 +32,13 @@ springdoc:
     path: /swagger-ui.html
     operations-sorter: alpha
     tags-sorter: alpha
+
+openaq:
+  base-url: ${OPENAQ_BASE_URL:https://api.openaq.org}
+  api-key: ${OPENAQ_API_KEY:}
+  sync-interval-ms: ${OPENAQ_SYNC_INTERVAL:3600000}
+
+logging:
+  level:
+    com.envirowatch: INFO
+    org.springframework.web: WARN
