@@ -1,7 +1,6 @@
 import 'package:envirowatch/features/dashboard/presentation/dashboard_page.dart';
 import 'package:envirowatch/features/locations/presentation/pages/locations_page.dart';
 import 'package:envirowatch/features/settings/presentation/pages/settings_page.dart';
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 

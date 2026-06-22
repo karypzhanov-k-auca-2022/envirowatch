@@ -1,1 +1,1 @@
-class LocationsPage {}
+class Lo
