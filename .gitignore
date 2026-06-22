@@ -1,0 +1,22 @@
+# IDE
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Mobile (Flutter) — handled by mobile/.gitignore
+mobile/.dart_tool/
+mobile/build/
+mobile/.packages
+
+# Backend (Spring Boot)
+backend/.gradle/
+backend/build/
+backend/out/
+backend/*.jar
+backend/bin/
+
+# Environment
+.env
+*.env.local
