@@ -8,8 +8,6 @@ Future<void> init() async {
   // 1. External (Dio, SharedPreferences)
   sl.registerLazySingleton(() => Dio());
 
-  // 2. Repository / Data Sources (будут позже)
-  // 3. BLoC / Cubit (будут позже)
   sl.registerLazySingleton(
     () => Dio(
       BaseOptions(
@@ -24,3 +22,6 @@ Future<void> init() async {
     ),
   );
 }
+
+  // 2. Repository / Data Sources (будут позже)
+  // 3. BLoC / Cubit (будут позже)
